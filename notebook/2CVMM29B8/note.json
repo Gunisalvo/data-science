@@ -1,0 +1,234 @@
+{
+  "paragraphs": [
+    {
+      "text": "%python\n\nimport numpy as np\nimport pandas as pd\n\ndata \u003d np.array([[\u0027\u0027,\u0027Col1\u0027,\u0027Col2\u0027],[\u0027Row1\u0027,1,2],[\u0027Row2\u0027,3,4]])\ndata",
+      "user": "anonymous",
+      "dateUpdated": "Sep 15, 2017 3:59:01 PM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "results": {},
+        "enabled": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "array([[\u0027\u0027, \u0027Col1\u0027, \u0027Col2\u0027],\n       [\u0027Row1\u0027, \u00271\u0027, \u00272\u0027],\n       [\u0027Row2\u0027, \u00273\u0027, \u00274\u0027]],\n      dtype\u003d\u0027|S4\u0027)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1505491068007_-844308801",
+      "id": "20170803-111034_1332184523",
+      "dateCreated": "Sep 15, 2017 3:57:48 PM",
+      "dateStarted": "Sep 15, 2017 3:59:01 PM",
+      "dateFinished": "Sep 15, 2017 3:59:03 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\n\ndataFrame \u003d pd.DataFrame(data\u003ddata[1:,1:],index\u003ddata[1:,0],columns\u003ddata[0,1:])\ndataFrame",
+      "user": "anonymous",
+      "dateUpdated": "Sep 15, 2017 3:59:01 PM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "results": {},
+        "enabled": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "     Col1 Col2\nRow1    1    2\nRow2    3    4\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1505491068011_-845847797",
+      "id": "20170803-111235_490539466",
+      "dateCreated": "Sep 15, 2017 3:57:48 PM",
+      "dateStarted": "Sep 15, 2017 3:59:03 PM",
+      "dateFinished": "Sep 15, 2017 3:59:03 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\n\ndataFrame2 \u003d pd.DataFrame(np.array([[1,2,3],[4,5,6]]))\ndataFrame2",
+      "user": "anonymous",
+      "dateUpdated": "Sep 15, 2017 3:59:02 PM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "results": {},
+        "enabled": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "   0  1  2\n0  1  2  3\n1  4  5  6\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1505491068012_-847771541",
+      "id": "20170803-111450_1744128067",
+      "dateCreated": "Sep 15, 2017 3:57:48 PM",
+      "dateStarted": "Sep 15, 2017 3:59:03 PM",
+      "dateFinished": "Sep 15, 2017 3:59:03 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\n\ndataFrame.describe()",
+      "user": "anonymous",
+      "dateUpdated": "Sep 15, 2017 3:59:02 PM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "results": {},
+        "enabled": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "       Col1 Col2\ncount     2    2\nunique    2    2\ntop       3    2\nfreq      1    1\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1505491068013_-848156290",
+      "id": "20170803-111603_410915288",
+      "dateCreated": "Sep 15, 2017 3:57:48 PM",
+      "dateStarted": "Sep 15, 2017 3:59:03 PM",
+      "dateFinished": "Sep 15, 2017 3:59:03 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\n\n# Transpose\ndataFrame2.T",
+      "user": "anonymous",
+      "dateUpdated": "Sep 15, 2017 3:59:02 PM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "results": {},
+        "enabled": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "   0  1\n0  1  4\n1  2  5\n2  3  6\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1505491068013_-848156290",
+      "id": "20170803-111700_1876851502",
+      "dateCreated": "Sep 15, 2017 3:57:48 PM",
+      "dateStarted": "Sep 15, 2017 3:59:03 PM",
+      "dateFinished": "Sep 15, 2017 3:59:03 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "anonymous",
+      "dateUpdated": "Sep 15, 2017 3:59:02 PM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "results": {},
+        "enabled": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1505491068014_-847002044",
+      "id": "20170803-111745_1792428188",
+      "dateCreated": "Sep 15, 2017 3:57:48 PM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "UOL_kihon1",
+  "id": "2CVMM29B8",
+  "angularObjects": {
+    "2CVBXJ8Y9:shared_process": [],
+    "2CUTT6A34:shared_process": [],
+    "2CVK7WP8Z:shared_process": [],
+    "2CW2BEABE:shared_process": [],
+    "2CVY5ACG1:shared_process": [],
+    "2CSQJQ2V8:shared_process": [],
+    "2CUBZ8M85:shared_process": [],
+    "2CT5TXEEY:shared_process": [],
+    "2CV86SJMX:shared_process": [],
+    "2CS6VGUBG:shared_process": [],
+    "2CSJ9EG6P:shared_process": [],
+    "2CSHB2826:shared_process": [],
+    "2CW2ATF3T:shared_process": [],
+    "2CUT7VHZ5:shared_process": [],
+    "2CTWJ3W2K:shared_process": [],
+    "2CS41NU5F:shared_process": [],
+    "2CUPZV1J7:shared_process": [],
+    "2CW3VR5PM:shared_process": [],
+    "2CTY23VNG:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
