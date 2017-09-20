@@ -1,0 +1,31 @@
+ INFO [2017-09-16 08:03:58,390] ({Thread-0} RemoteInterpreterServer.java[run]:97) - Starting remote interpreter server on port 33253
+ INFO [2017-09-16 08:03:58,818] ({pool-1-thread-2} RemoteInterpreterServer.java[createInterpreter]:198) - Instantiate interpreter org.apache.zeppelin.python.PythonInterpreter
+ INFO [2017-09-16 08:03:58,828] ({pool-1-thread-2} RemoteInterpreterServer.java[createInterpreter]:198) - Instantiate interpreter org.apache.zeppelin.python.PythonInterpreterPandasSql
+ INFO [2017-09-16 08:03:58,831] ({pool-1-thread-2} RemoteInterpreterServer.java[createInterpreter]:198) - Instantiate interpreter org.apache.zeppelin.python.PythonCondaInterpreter
+ INFO [2017-09-16 08:03:58,832] ({pool-1-thread-2} RemoteInterpreterServer.java[createInterpreter]:198) - Instantiate interpreter org.apache.zeppelin.python.PythonDockerInterpreter
+ INFO [2017-09-16 08:03:58,856] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505549038855 started by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:03:58,860] ({pool-2-thread-2} PythonInterpreter.java[createPythonScript]:126) - File /tmp/zeppelin_python-5136668503664893183.py created
+ INFO [2017-09-16 08:03:58,874] ({pool-2-thread-2} PythonInterpreter.java[createGatewayServerAndStartScript]:205) - cmd = [python, /tmp/zeppelin_python-5136668503664893183.py, 43711, 172.19.0.2]
+ INFO [2017-09-16 08:03:59,926] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505549038855 finished by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:04:54,926] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505549094926 started by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:04:54,963] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505549094926 finished by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:05:23,315] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505549123315 started by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:05:23,331] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505549123315 finished by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:06:28,223] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505549188223 started by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:06:28,235] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505549188223 finished by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:09:11,211] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505549351210 started by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:09:11,216] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505549351210 finished by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:10:23,662] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505549423661 started by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:10:23,673] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505549423661 finished by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:19:24,459] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505549964459 started by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:19:24,468] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505549964459 finished by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:19:39,279] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505549979279 started by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:19:39,296] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505549979279 finished by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:19:42,403] ({pool-2-thread-7} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505549982402 started by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:19:42,406] ({pool-2-thread-7} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505549982402 finished by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:30:16,157] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505550616157 started by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:30:16,163] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505550616157 finished by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:30:49,715] ({pool-2-thread-8} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505550649714 started by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:30:49,720] ({pool-2-thread-8} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505550649714 finished by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:31:15,029] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505550675029 started by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152
+ INFO [2017-09-16 08:31:15,037] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505550675029 finished by scheduler org.apache.zeppelin.python.PythonInterpreter2128213152

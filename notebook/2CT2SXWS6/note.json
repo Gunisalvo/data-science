@@ -1,0 +1,100 @@
+{
+  "paragraphs": [
+    {
+      "text": "%spark\n\nval dataScala \u003d Array(1,2,3)",
+      "user": "anonymous",
+      "dateUpdated": "Sep 15, 2017 8:28:43 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\ndataScala: Array[Int] \u003d Array(1, 2, 3)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1505507084786_-448224127",
+      "id": "20170915-202444_580324374",
+      "dateCreated": "Sep 15, 2017 8:24:44 PM",
+      "dateStarted": "Sep 15, 2017 8:28:43 PM",
+      "dateFinished": "Sep 15, 2017 8:28:43 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.r\n\ndataR \u003c- c(1, 2, 3)\ndataR",
+      "user": "anonymous",
+      "dateUpdated": "Sep 15, 2017 8:28:57 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "r"
+        },
+        "editorMode": "ace/mode/r"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 1 2 3\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1505507158712_9501182",
+      "id": "20170915-202558_1504801892",
+      "dateCreated": "Sep 15, 2017 8:25:58 PM",
+      "dateStarted": "Sep 15, 2017 8:28:57 PM",
+      "dateFinished": "Sep 15, 2017 8:28:57 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "UOL_MultiLanguageSupport",
+  "id": "2CT2SXWS6",
+  "angularObjects": {
+    "2CVC4X6UW:shared_process": [],
+    "2CUBXVA2X:shared_process": [],
+    "2CVXXKK7G:shared_process": [],
+    "2CSV2HAX3:shared_process": [],
+    "2CS5DMGKZ:shared_process": [],
+    "2CU4S8JUN:shared_process": [],
+    "2CV8M8U9M:shared_process": [],
+    "2CVYP79R2:shared_process": [],
+    "2CVR67MKF:shared_process": [],
+    "2CSHEYM1A:shared_process": [],
+    "2CSFBS6N2:shared_process": [],
+    "2CU3XUU2B:shared_process": [],
+    "2CS9BJ1C7:shared_process": [],
+    "2CTP24YCG:shared_process": [],
+    "2CSAA48PV:shared_process": [],
+    "2CV5GZRWD:shared_process": [],
+    "2CW3B3BAC:shared_process": [],
+    "2CTEV1VRN:shared_process": [],
+    "2CUGYD7CF:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}

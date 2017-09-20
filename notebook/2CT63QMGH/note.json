@@ -1,0 +1,220 @@
+{
+  "paragraphs": [
+    {
+      "text": "%r\nlenses \u003c- read.csv(\"/zeppelin/notebook/data/lenses.csv\", sep\u003d\"\", header\u003dFALSE)\nlenses \u003c- lenses[-1]\nnames(lenses) \u003c- c(\u0027age\u0027, \u0027prescription\u0027, \u0027astigmatism\u0027, \u0027tears\u0027, \u0027classification\u0027)\nlibrary(plyr)\nlenses$age \u003c- factor(mapvalues(lenses$age, from \u003d c(\u00271\u0027,\u00272\u0027,\u00273\u0027), to \u003d c(\u0027young\u0027,\u0027adult\u0027,\u0027old\u0027)))\nlenses$prescription \u003c- factor(mapvalues(lenses$prescription, from \u003d c(\u00271\u0027,\u00272\u0027), to \u003d c(\u0027nearsightednes\u0027,\u0027farsightednes\u0027)))\nlenses$astigmatism \u003c- factor(mapvalues(lenses$astigmatism, from \u003d c(\u00271\u0027,\u00272\u0027), to \u003d c(\u0027astigmatic\u0027,\u0027non-astigmatic\u0027)))\nlenses$tears \u003c- factor(mapvalues(lenses$tears, from \u003d c(\u00271\u0027,\u00272\u0027), to \u003d c(\u0027reduced\u0027,\u0027normal\u0027)))\nlenses$classification \u003c- factor(mapvalues(lenses$classification, from \u003d c(\u00271\u0027,\u00272\u0027,\u00273\u0027), to \u003d c(\u0027hard\u0027,\u0027soft\u0027,\u0027none\u0027)))\nsummary(lenses$age)\nsummary(lenses$prescription)\nsummary(lenses$astigmatism)\nsummary(lenses$tears)\nsummary(lenses$)",
+      "user": "anonymous",
+      "dateUpdated": "Sep 19, 2017 7:34:03 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "r"
+        },
+        "editorMode": "ace/mode/r"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\nadult   old young \n    8     8     8 \n farsightednes nearsightednes \n            12             12 \n    astigmatic non-astigmatic \n            12             12 \n normal reduced \n     12      12 \nhard none soft \n   4   15    5 \n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1505845637806_395844444",
+      "id": "20170919-182717_415269681",
+      "dateCreated": "Sep 19, 2017 6:27:17 PM",
+      "dateStarted": "Sep 19, 2017 7:14:46 PM",
+      "dateFinished": "Sep 19, 2017 7:14:46 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%r\nset.seed(10203)\nsplit \u003c- base::sample(24,20)\nsplit",
+      "user": "anonymous",
+      "dateUpdated": "Sep 19, 2017 7:11:15 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\n[1] 19 21  3  5  4  6 22  7 16  8 13 24 17  2 18 15  9 12 14  1\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1505845740562_-1647386754",
+      "id": "20170919-182900_590910284",
+      "dateCreated": "Sep 19, 2017 6:29:00 PM",
+      "dateStarted": "Sep 19, 2017 7:11:15 PM",
+      "dateFinished": "Sep 19, 2017 7:11:15 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%r\ntrainning_set \u003c- lenses[split, ]\ntest_set \u003c- lenses[-split,]",
+      "user": "anonymous",
+      "dateUpdated": "Sep 19, 2017 7:26:15 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\nCall:\nC5.0.default(x \u003d trainning_set[-5], y \u003d trainning_set$classification)\n\nC5.0 [Release 2.07 GPL Edition]     Tue Sep 19 19:25:00 2017\n\nClass specified by attribute outcome\u0027\n\nRead 20 cases (5 attributes) from undefined.data\n\nDecision tree:\n\ntears \u003d reduced: none (10)\ntears \u003d normal:\n:…astigmatism \u003d astigmatic: soft (5/1)\n    astigmatism \u003d non-astigmatic: hard (5/2)\n\nEvaluation on training data (20 cases):\n\n    Decision Tree   \n  ----------------  \n  Size      Errors  \n\n     3    3(15.0%)   \u0026lt;\u0026lt;\n\n\n   (a)   (b)   (c)    \u0026lt;-classified as\n  ----  ----  ----\n     3                (a): class hard\n     2    10     1    (b): class none\n                 4    (c): class soft\n\n\nAttribute usage:\n\n100.00% tears\n 50.00% astigmatism\n\n\nTime: 0.0 secs\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1505848163931_1589953956",
+      "id": "20170919-190923_45178161",
+      "dateCreated": "Sep 19, 2017 7:09:23 PM",
+      "dateStarted": "Sep 19, 2017 7:25:00 PM",
+      "dateFinished": "Sep 19, 2017 7:25:00 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%r\n# install.packages(\"C50\", repos \u003d \"http://cran.us.r-project.org\")\nlibrary(C50)\nsimple_classifier \u003c- C5.0(trainning_set[-5], trainning_set$classification)\nsummary(simple_classifier)",
+      "user": "anonymous",
+      "dateUpdated": "Sep 19, 2017 7:26:24 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\nCall:\nC5.0.default(x \u003d trainning_set[-5], y \u003d trainning_set$classification)\n\nC5.0 [Release 2.07 GPL Edition]     Tue Sep 19 19:26:24 2017\n\nClass specified by attribute outcome\u0027\n\nRead 20 cases (5 attributes) from undefined.data\n\nDecision tree:\n\ntears \u003d reduced: none (10)\ntears \u003d normal:\n:…astigmatism \u003d astigmatic: soft (5/1)\n    astigmatism \u003d non-astigmatic: hard (5/2)\n\nEvaluation on training data (20 cases):\n\n    Decision Tree   \n  ----------------  \n  Size      Errors  \n\n     3    3(15.0%)   \u0026lt;\u0026lt;\n\n\n   (a)   (b)   (c)    \u0026lt;-classified as\n  ----  ----  ----\n     3                (a): class hard\n     2    10     1    (b): class none\n                 4    (c): class soft\n\n\nAttribute usage:\n\n100.00% tears\n 50.00% astigmatism\n\n\nTime: 0.0 secs\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1505848216249_-1084976928",
+      "id": "20170919-191016_1076708195",
+      "dateCreated": "Sep 19, 2017 7:10:16 PM",
+      "dateStarted": "Sep 19, 2017 7:26:24 PM",
+      "dateFinished": "Sep 19, 2017 7:26:24 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%r\ntest_result \u003c- predict(simple_classifier, test_set)\n# install.packages(\"gmodels\", repos \u003d \"http://cran.us.r-project.org\")\nlibrary(gmodels)\nCrossTable(test_set$classification, test_result, prop.chisq \u003d FALSE, prop.c \u003d FALSE, prop.r \u003d FALSE, dnn \u003d c(\u0027actual type\u0027, \u0027predicted type\u0027))",
+      "user": "anonymous",
+      "dateUpdated": "Sep 19, 2017 7:35:03 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\nCell Contents\n|————————-|\n|                       N |\n|         N / Table Total |\n|————————-|\n\nTotal Observations in Table:  4 \n\n         | predicted type \n\n\n\n\nactual type\nhard\nnone\nsoft\nRow Total\n\n\n\nhard\n1\n0\n0\n1\n\n\n\n0.250\n0.000\n0.000\n\n\n\n————-\n———–\n———–\n———–\n———–\n\n\nnone\n0\n2\n0\n2\n\n\n\n0.000\n0.500\n0.000\n\n\n\n————-\n———–\n———–\n———–\n———–\n\n\nsoft\n0\n0\n1\n1\n\n\n\n0.000\n0.000\n0.250\n\n\n\n————-\n———–\n———–\n———–\n———–\n\n\nColumn Total\n1\n2\n1\n4\n\n\n————-\n———–\n———–\n———–\n———–\n\n\n\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1505849184008_707792603",
+      "id": "20170919-192624_1407925052",
+      "dateCreated": "Sep 19, 2017 7:26:24 PM",
+      "dateStarted": "Sep 19, 2017 7:35:03 PM",
+      "dateFinished": "Sep 19, 2017 7:35:03 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%r\n",
+      "user": "anonymous",
+      "dateUpdated": "Sep 19, 2017 7:27:31 PM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1505849251115_1270154288",
+      "id": "20170919-192731_1143041222",
+      "dateCreated": "Sep 19, 2017 7:27:31 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "DM_W3",
+  "id": "2CT63QMGH",
+  "angularObjects": {
+    "2CVC4X6UW:shared_process": [],
+    "2CUBXVA2X:shared_process": [],
+    "2CVXXKK7G:shared_process": [],
+    "2CSV2HAX3:shared_process": [],
+    "2CS5DMGKZ:shared_process": [],
+    "2CU4S8JUN:shared_process": [],
+    "2CV8M8U9M:shared_process": [],
+    "2CVYP79R2:shared_process": [],
+    "2CVR67MKF:shared_process": [],
+    "2CSHEYM1A:shared_process": [],
+    "2CSFBS6N2:shared_process": [],
+    "2CU3XUU2B:shared_process": [],
+    "2CS9BJ1C7:shared_process": [],
+    "2CTP24YCG:shared_process": [],
+    "2CSAA48PV:shared_process": [],
+    "2CV5GZRWD:shared_process": [],
+    "2CW3B3BAC:shared_process": [],
+    "2CTEV1VRN:shared_process": [],
+    "2CUGYD7CF:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}

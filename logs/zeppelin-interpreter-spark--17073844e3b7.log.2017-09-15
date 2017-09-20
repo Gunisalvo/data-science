@@ -1,0 +1,142 @@
+ INFO [2017-09-15 20:26:06,901] ({Thread-0} RemoteInterpreterServer.java[run]:97) - Starting remote interpreter server on port 36447
+ INFO [2017-09-15 20:26:07,311] ({pool-1-thread-2} RemoteInterpreterServer.java[createInterpreter]:198) - Instantiate interpreter org.apache.zeppelin.spark.SparkInterpreter
+ INFO [2017-09-15 20:26:07,325] ({pool-1-thread-2} RemoteInterpreterServer.java[createInterpreter]:198) - Instantiate interpreter org.apache.zeppelin.spark.SparkSqlInterpreter
+ INFO [2017-09-15 20:26:07,328] ({pool-1-thread-2} RemoteInterpreterServer.java[createInterpreter]:198) - Instantiate interpreter org.apache.zeppelin.spark.DepInterpreter
+ INFO [2017-09-15 20:26:07,337] ({pool-1-thread-2} RemoteInterpreterServer.java[createInterpreter]:198) - Instantiate interpreter org.apache.zeppelin.spark.PySparkInterpreter
+ INFO [2017-09-15 20:26:07,338] ({pool-1-thread-2} RemoteInterpreterServer.java[createInterpreter]:198) - Instantiate interpreter org.apache.zeppelin.spark.SparkRInterpreter
+ INFO [2017-09-15 20:26:07,369] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505507167368 started by scheduler org.apache.zeppelin.spark.SparkInterpreter1063016676
+ INFO [2017-09-15 20:26:09,037] ({pool-2-thread-2} SparkInterpreter.java[createSparkSession]:318) - ------ Create new SparkContext local[*] -------
+ WARN [2017-09-15 20:26:09,040] ({pool-2-thread-2} SparkInterpreter.java[setupConfForSparkR]:562) - sparkr.zip is not found, sparkr may not work.
+ INFO [2017-09-15 20:26:09,350] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Running Spark version 2.1.0
+ WARN [2017-09-15 20:26:09,513] ({pool-2-thread-2} NativeCodeLoader.java[<clinit>]:62) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+ WARN [2017-09-15 20:26:09,564] ({pool-2-thread-2} Logging.scala[logWarning]:66) - 
+SPARK_CLASSPATH was detected (set to ':/zeppelin/interpreter/spark/dep/*:/zeppelin/interpreter/spark/*:/zeppelin/lib/interpreter/*:').
+This is deprecated in Spark 1.0+.
+
+Please instead use:
+ - ./spark-submit with --driver-class-path to augment the driver classpath
+ - spark.executor.extraClassPath to augment the executor classpath
+        
+ WARN [2017-09-15 20:26:09,565] ({pool-2-thread-2} Logging.scala[logWarning]:66) - Setting 'spark.executor.extraClassPath' to ':/zeppelin/interpreter/spark/dep/*:/zeppelin/interpreter/spark/*:/zeppelin/lib/interpreter/*:' as a work-around.
+ WARN [2017-09-15 20:26:09,565] ({pool-2-thread-2} Logging.scala[logWarning]:66) - Setting 'spark.driver.extraClassPath' to ':/zeppelin/interpreter/spark/dep/*:/zeppelin/interpreter/spark/*:/zeppelin/lib/interpreter/*:' as a work-around.
+ INFO [2017-09-15 20:26:09,585] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Changing view acls to: root
+ INFO [2017-09-15 20:26:09,586] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Changing modify acls to: root
+ INFO [2017-09-15 20:26:09,587] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Changing view acls groups to: 
+ INFO [2017-09-15 20:26:09,588] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Changing modify acls groups to: 
+ INFO [2017-09-15 20:26:09,588] ({pool-2-thread-2} Logging.scala[logInfo]:54) - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+ INFO [2017-09-15 20:26:09,750] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Successfully started service 'sparkDriver' on port 41189.
+ INFO [2017-09-15 20:26:09,764] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Registering MapOutputTracker
+ INFO [2017-09-15 20:26:09,777] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Registering BlockManagerMaster
+ INFO [2017-09-15 20:26:09,779] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+ INFO [2017-09-15 20:26:09,779] ({pool-2-thread-2} Logging.scala[logInfo]:54) - BlockManagerMasterEndpoint up
+ INFO [2017-09-15 20:26:09,788] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Created local directory at /tmp/blockmgr-94dc2ef1-06a8-4ebd-aea3-3f10df2714e4
+ INFO [2017-09-15 20:26:09,794] ({pool-2-thread-2} Logging.scala[logInfo]:54) - MemoryStore started with capacity 408.9 MB
+ INFO [2017-09-15 20:26:09,824] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Registering OutputCommitCoordinator
+ INFO [2017-09-15 20:26:09,874] ({pool-2-thread-2} Log.java[initialized]:186) - Logging initialized @3183ms
+ INFO [2017-09-15 20:26:09,942] ({pool-2-thread-2} Server.java[doStart]:327) - jetty-9.2.z-SNAPSHOT
+ INFO [2017-09-15 20:26:09,955] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@6cf2a13f{/jobs,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,956] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@2e72055f{/jobs/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,956] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@420d4890{/jobs/job,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,956] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@117f233b{/jobs/job/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,956] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@68fd8372{/stages,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,957] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@569b2bcf{/stages/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,957] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@7efaa044{/stages/stage,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,957] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@1674325b{/stages/stage/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,957] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@1216d5f4{/stages/pool,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,958] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@1d5c412a{/stages/pool/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,958] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@360f2a45{/storage,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,958] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@1de2035{/storage/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,959] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@25c3ec8f{/storage/rdd,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,959] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@5ae9bc0c{/storage/rdd/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,959] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@15fbf816{/environment,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,960] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@65d4bd14{/environment/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,960] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@5fc982b5{/executors,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,960] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@48574c9c{/executors/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,960] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@22636c8{/executors/threadDump,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,961] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@42da1785{/executors/threadDump/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,965] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@5195f941{/static,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,965] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@23546c43{/,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,966] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@10f79e97{/api,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,966] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@283d533{/jobs/job/kill,null,AVAILABLE}
+ INFO [2017-09-15 20:26:09,966] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@7c226bd3{/stages/stage/kill,null,AVAILABLE}
+ INFO [2017-09-15 20:26:10,008] ({pool-2-thread-2} AbstractConnector.java[doStart]:266) - Started ServerConnector@287892aa{HTTP/1.1}{0.0.0.0:4040}
+ INFO [2017-09-15 20:26:10,008] ({pool-2-thread-2} Server.java[doStart]:379) - Started @3317ms
+ INFO [2017-09-15 20:26:10,008] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Successfully started service 'SparkUI' on port 4040.
+ INFO [2017-09-15 20:26:10,009] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Bound SparkUI to 0.0.0.0, and started at http://172.19.0.2:4040
+ INFO [2017-09-15 20:26:10,076] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Added file file:/zeppelin/interpreter/spark/pyspark/pyspark.zip at file:/zeppelin/interpreter/spark/pyspark/pyspark.zip with timestamp 1505507170075
+ INFO [2017-09-15 20:26:10,077] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Copying /zeppelin/interpreter/spark/pyspark/pyspark.zip to /tmp/spark-c368f2a7-c147-493a-8106-5d2ebc31233f/userFiles-fc86c576-08ba-42e9-bc28-e4a71f2b5ff2/pyspark.zip
+ INFO [2017-09-15 20:26:10,082] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Added file file:/zeppelin/interpreter/spark/pyspark/py4j-0.10.4-src.zip at file:/zeppelin/interpreter/spark/pyspark/py4j-0.10.4-src.zip with timestamp 1505507170082
+ INFO [2017-09-15 20:26:10,082] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Copying /zeppelin/interpreter/spark/pyspark/py4j-0.10.4-src.zip to /tmp/spark-c368f2a7-c147-493a-8106-5d2ebc31233f/userFiles-fc86c576-08ba-42e9-bc28-e4a71f2b5ff2/py4j-0.10.4-src.zip
+ INFO [2017-09-15 20:26:10,102] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Created default pool default, schedulingMode: FIFO, minShare: 0, weight: 1
+ INFO [2017-09-15 20:26:10,123] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Starting executor ID driver on host localhost
+ INFO [2017-09-15 20:26:10,127] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Using REPL class URI: spark://172.19.0.2:41189/classes
+ INFO [2017-09-15 20:26:10,142] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45805.
+ INFO [2017-09-15 20:26:10,143] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Server created on 172.19.0.2:45805
+ INFO [2017-09-15 20:26:10,144] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+ INFO [2017-09-15 20:26:10,146] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Registering BlockManager BlockManagerId(driver, 172.19.0.2, 45805, None)
+ INFO [2017-09-15 20:26:10,148] ({dispatcher-event-loop-2} Logging.scala[logInfo]:54) - Registering block manager 172.19.0.2:45805 with 408.9 MB RAM, BlockManagerId(driver, 172.19.0.2, 45805, None)
+ INFO [2017-09-15 20:26:10,150] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Registered BlockManager BlockManagerId(driver, 172.19.0.2, 45805, None)
+ INFO [2017-09-15 20:26:10,151] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Initialized BlockManager: BlockManagerId(driver, 172.19.0.2, 45805, None)
+ INFO [2017-09-15 20:26:10,252] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@38d80bff{/metrics/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:10,262] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Warehouse path is 'file:/zeppelin/spark-warehouse'.
+ INFO [2017-09-15 20:26:10,267] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@32f24987{/SQL,null,AVAILABLE}
+ INFO [2017-09-15 20:26:10,268] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@60b75ad4{/SQL/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:10,268] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@104ef1c0{/SQL/execution,null,AVAILABLE}
+ INFO [2017-09-15 20:26:10,269] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@2283c2c0{/SQL/execution/json,null,AVAILABLE}
+ INFO [2017-09-15 20:26:10,270] ({pool-2-thread-2} ContextHandler.java[doStart]:744) - Started o.s.j.s.ServletContextHandler@28d12809{/static/sql,null,AVAILABLE}
+ INFO [2017-09-15 20:26:10,295] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+ INFO [2017-09-15 20:26:10,700] ({pool-2-thread-2} HiveMetaStore.java[newRawStore]:589) - 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+ INFO [2017-09-15 20:26:10,718] ({pool-2-thread-2} ObjectStore.java[initialize]:289) - ObjectStore, initialize called
+ INFO [2017-09-15 20:26:10,806] ({pool-2-thread-2} Log4JLogger.java[info]:77) - Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+ INFO [2017-09-15 20:26:10,806] ({pool-2-thread-2} Log4JLogger.java[info]:77) - Property datanucleus.cache.level2 unknown - will be ignored
+ INFO [2017-09-15 20:26:12,909] ({pool-2-thread-2} ObjectStore.java[getPMF]:370) - Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+ INFO [2017-09-15 20:26:13,456] ({pool-2-thread-2} Log4JLogger.java[info]:77) - The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+ INFO [2017-09-15 20:26:13,457] ({pool-2-thread-2} Log4JLogger.java[info]:77) - The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+ INFO [2017-09-15 20:26:14,675] ({pool-2-thread-2} Log4JLogger.java[info]:77) - The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+ INFO [2017-09-15 20:26:14,675] ({pool-2-thread-2} Log4JLogger.java[info]:77) - The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+ INFO [2017-09-15 20:26:14,974] ({pool-2-thread-2} MetaStoreDirectSql.java[<init>]:139) - Using direct SQL, underlying DB is DERBY
+ INFO [2017-09-15 20:26:14,975] ({pool-2-thread-2} ObjectStore.java[setConf]:272) - Initialized ObjectStore
+ WARN [2017-09-15 20:26:15,076] ({pool-2-thread-2} ObjectStore.java[checkSchema]:6666) - Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+ WARN [2017-09-15 20:26:15,173] ({pool-2-thread-2} ObjectStore.java[getDatabase]:568) - Failed to get database default, returning NoSuchObjectException
+ INFO [2017-09-15 20:26:15,274] ({pool-2-thread-2} HiveMetaStore.java[createDefaultRoles_core]:663) - Added admin role in metastore
+ INFO [2017-09-15 20:26:15,278] ({pool-2-thread-2} HiveMetaStore.java[createDefaultRoles_core]:672) - Added public role in metastore
+ INFO [2017-09-15 20:26:15,358] ({pool-2-thread-2} HiveMetaStore.java[addAdminUsers_core]:712) - No user is added in admin role, since config is empty
+ INFO [2017-09-15 20:26:15,413] ({pool-2-thread-2} HiveMetaStore.java[logInfo]:746) - 0: get_all_databases
+ INFO [2017-09-15 20:26:15,415] ({pool-2-thread-2} HiveMetaStore.java[logAuditEvent]:371) - ugi=root	ip=unknown-ip-addr	cmd=get_all_databases	
+ INFO [2017-09-15 20:26:15,425] ({pool-2-thread-2} HiveMetaStore.java[logInfo]:746) - 0: get_functions: db=default pat=*
+ INFO [2017-09-15 20:26:15,426] ({pool-2-thread-2} HiveMetaStore.java[logAuditEvent]:371) - ugi=root	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+ INFO [2017-09-15 20:26:15,427] ({pool-2-thread-2} Log4JLogger.java[info]:77) - The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+ INFO [2017-09-15 20:26:15,650] ({pool-2-thread-2} SessionState.java[createPath]:641) - Created HDFS directory: /tmp/hive/root
+ INFO [2017-09-15 20:26:15,652] ({pool-2-thread-2} SessionState.java[createPath]:641) - Created local directory: /tmp/root
+ INFO [2017-09-15 20:26:15,655] ({pool-2-thread-2} SessionState.java[createPath]:641) - Created local directory: /tmp/0e0d0e40-ccae-4e94-bfe5-14b7e930324e_resources
+ INFO [2017-09-15 20:26:15,657] ({pool-2-thread-2} SessionState.java[createPath]:641) - Created HDFS directory: /tmp/hive/root/0e0d0e40-ccae-4e94-bfe5-14b7e930324e
+ INFO [2017-09-15 20:26:15,660] ({pool-2-thread-2} SessionState.java[createPath]:641) - Created local directory: /tmp/root/0e0d0e40-ccae-4e94-bfe5-14b7e930324e
+ INFO [2017-09-15 20:26:15,662] ({pool-2-thread-2} SessionState.java[createPath]:641) - Created HDFS directory: /tmp/hive/root/0e0d0e40-ccae-4e94-bfe5-14b7e930324e/_tmp_space.db
+ INFO [2017-09-15 20:26:15,664] ({pool-2-thread-2} Logging.scala[logInfo]:54) - Warehouse location for Hive client (version 1.2.1) is file:/zeppelin/spark-warehouse
+ INFO [2017-09-15 20:26:15,669] ({pool-2-thread-2} HiveMetaStore.java[logInfo]:746) - 0: get_database: default
+ INFO [2017-09-15 20:26:15,669] ({pool-2-thread-2} HiveMetaStore.java[logAuditEvent]:371) - ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+ INFO [2017-09-15 20:26:15,684] ({pool-2-thread-2} HiveMetaStore.java[logInfo]:746) - 0: get_database: global_temp
+ INFO [2017-09-15 20:26:15,684] ({pool-2-thread-2} HiveMetaStore.java[logAuditEvent]:371) - ugi=root	ip=unknown-ip-addr	cmd=get_database: global_temp	
+ WARN [2017-09-15 20:26:15,685] ({pool-2-thread-2} ObjectStore.java[getDatabase]:568) - Failed to get database global_temp, returning NoSuchObjectException
+ INFO [2017-09-15 20:26:15,687] ({pool-2-thread-2} SparkInterpreter.java[createSparkSession]:362) - Created Spark session with Hive support
+ INFO [2017-09-15 20:26:18,633] ({pool-2-thread-2} SparkInterpreter.java[populateSparkWebUrl]:997) - Sending metainfos to Zeppelin server: {url=http://172.19.0.2:4040}
+ INFO [2017-09-15 20:26:18,640] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505507167368 finished by scheduler org.apache.zeppelin.spark.SparkInterpreter1063016676
+ INFO [2017-09-15 20:27:06,492] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505507226492 started by scheduler org.apache.zeppelin.spark.SparkInterpreter1063016676
+ INFO [2017-09-15 20:27:06,590] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505507226492 finished by scheduler org.apache.zeppelin.spark.SparkInterpreter1063016676
+ INFO [2017-09-15 20:27:31,029] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505507251029 started by scheduler org.apache.zeppelin.spark.SparkInterpreter1063016676
+ INFO [2017-09-15 20:27:31,495] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505507251029 finished by scheduler org.apache.zeppelin.spark.SparkInterpreter1063016676
+ INFO [2017-09-15 20:27:39,308] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505507259307 started by scheduler org.apache.zeppelin.spark.SparkInterpreter1063016676
+ INFO [2017-09-15 20:27:39,503] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505507259307 finished by scheduler org.apache.zeppelin.spark.SparkInterpreter1063016676
+ INFO [2017-09-15 20:28:05,365] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505507285365 started by scheduler org.apache.zeppelin.spark.SparkRInterpreter485873167
+ INFO [2017-09-15 20:28:05,379] ({pool-2-thread-6} ZeppelinR.java[createRScript]:353) - File /tmp/zeppelin_sparkr-1520647383894997453.R created
+ INFO [2017-09-15 20:28:06,146] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505507285365 finished by scheduler org.apache.zeppelin.spark.SparkRInterpreter485873167
+ INFO [2017-09-15 20:28:24,810] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505507304810 started by scheduler org.apache.zeppelin.spark.SparkInterpreter1063016676
+ INFO [2017-09-15 20:28:25,008] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505507304810 finished by scheduler org.apache.zeppelin.spark.SparkInterpreter1063016676
+ INFO [2017-09-15 20:28:25,044] ({pool-2-thread-7} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505507305044 started by scheduler org.apache.zeppelin.spark.SparkRInterpreter485873167
+ INFO [2017-09-15 20:28:25,586] ({pool-2-thread-7} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505507305044 finished by scheduler org.apache.zeppelin.spark.SparkRInterpreter485873167
+ INFO [2017-09-15 20:28:43,760] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505507323760 started by scheduler org.apache.zeppelin.spark.SparkInterpreter1063016676
+ INFO [2017-09-15 20:28:43,940] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505507323760 finished by scheduler org.apache.zeppelin.spark.SparkInterpreter1063016676
+ INFO [2017-09-15 20:28:43,956] ({pool-2-thread-8} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505507323955 started by scheduler org.apache.zeppelin.spark.SparkRInterpreter485873167
+ INFO [2017-09-15 20:28:44,096] ({pool-2-thread-8} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505507323955 finished by scheduler org.apache.zeppelin.spark.SparkRInterpreter485873167
+ INFO [2017-09-15 20:28:57,508] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:131) - Job remoteInterpretJob_1505507337508 started by scheduler org.apache.zeppelin.spark.SparkRInterpreter485873167
+ INFO [2017-09-15 20:28:57,554] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:137) - Job remoteInterpretJob_1505507337508 finished by scheduler org.apache.zeppelin.spark.SparkRInterpreter485873167

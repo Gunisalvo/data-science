@@ -1,0 +1,69 @@
+ WARN [2017-09-16 08:02:02,759] ({qtp1632392469-42} SecurityRestApi.java[ticket]:87) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2017-09-16 08:02:02,793] ({qtp1632392469-41} NotebookServer.java[onOpen]:156) - New connection from 172.19.0.1 : 36618
+ INFO [2017-09-16 08:02:15,975] ({qtp1632392469-42} FolderView.java[onNoteNameChanged]:205) - Note name changed:  -> UOL_DecisionTrees
+ INFO [2017-09-16 08:02:15,975] ({qtp1632392469-42} Folder.java[addNote]:184) - Add note 2CVTZNNS7 to folder /
+ INFO [2017-09-16 08:02:16,065] ({qtp1632392469-82} NotebookServer.java[sendNote]:705) - New operation from 172.19.0.1 : 36618 : anonymous : GET_NOTE : 2CVTZNNS7
+ WARN [2017-09-16 08:02:16,067] ({qtp1632392469-82} GitNotebookRepo.java[revisionHistory]:157) - No Head found for 2CVTZNNS7, No HEAD exists and no explicit starting revision was specified
+ INFO [2017-09-16 08:02:54,791] ({qtp1632392469-81} InterpreterFactory.java[createInterpretersForNote]:188) - Create interpreter instance python for note 2CVTZNNS7
+ INFO [2017-09-16 08:02:54,791] ({qtp1632392469-81} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.python.PythonInterpreter 1085306660 created
+ INFO [2017-09-16 08:02:54,792] ({qtp1632392469-81} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.python.PythonInterpreterPandasSql 1316458818 created
+ INFO [2017-09-16 08:02:54,792] ({qtp1632392469-81} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.python.PythonCondaInterpreter 1246239828 created
+ INFO [2017-09-16 08:02:54,792] ({qtp1632392469-81} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.python.PythonDockerInterpreter 256547705 created
+ INFO [2017-09-16 08:03:58,171] ({qtp1632392469-82} NotebookServer.java[broadcastNewParagraph]:641) - Broadcasting paragraph on run call instead of note.
+ INFO [2017-09-16 08:03:58,180] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505548935975_-281906822 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:03:58,180] ({pool-2-thread-3} Paragraph.java[jobRun]:362) - run paragraph 20170916-080215_1065649640 using python org.apache.zeppelin.interpreter.LazyOpenInterpreter@40b07724
+ INFO [2017-09-16 08:03:58,180] ({pool-2-thread-3} RemoteInterpreterManagedProcess.java[start]:126) - Run interpreter process [/zeppelin/bin/interpreter.sh, -d, /zeppelin/interpreter/python, -p, 33253, -l, /zeppelin/local-repo/2CVC4X6UW]
+ INFO [2017-09-16 08:03:58,688] ({pool-2-thread-3} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.python.PythonInterpreter
+ INFO [2017-09-16 08:03:58,818] ({pool-2-thread-3} RemoteInterpreter.java[pushAngularObjectRegistryToRemote]:551) - Push local angular object registry from ZeppelinServer to remote interpreter group 2CVC4X6UW:shared_process
+ INFO [2017-09-16 08:03:58,827] ({pool-2-thread-3} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.python.PythonInterpreterPandasSql
+ INFO [2017-09-16 08:03:58,830] ({pool-2-thread-3} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.python.PythonCondaInterpreter
+ INFO [2017-09-16 08:03:58,831] ({pool-2-thread-3} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.python.PythonDockerInterpreter
+ INFO [2017-09-16 08:03:59,932] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2056) - Job 20170916-080215_1065649640 is finished successfully, status: FINISHED
+ INFO [2017-09-16 08:03:59,937] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505548935975_-281906822 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:04:54,920] ({pool-2-thread-8} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505548935975_-281906822 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:04:54,921] ({pool-2-thread-8} Paragraph.java[jobRun]:362) - run paragraph 20170916-080215_1065649640 using python org.apache.zeppelin.interpreter.LazyOpenInterpreter@40b07724
+ INFO [2017-09-16 08:04:54,966] ({pool-2-thread-8} NotebookServer.java[afterStatusChange]:2056) - Job 20170916-080215_1065649640 is finished successfully, status: FINISHED
+ INFO [2017-09-16 08:04:54,974] ({pool-2-thread-8} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505548935975_-281906822 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:05:23,313] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505548935975_-281906822 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:05:23,314] ({pool-2-thread-5} Paragraph.java[jobRun]:362) - run paragraph 20170916-080215_1065649640 using python org.apache.zeppelin.interpreter.LazyOpenInterpreter@40b07724
+ INFO [2017-09-16 08:05:23,332] ({pool-2-thread-5} NotebookServer.java[afterStatusChange]:2056) - Job 20170916-080215_1065649640 is finished successfully, status: FINISHED
+ INFO [2017-09-16 08:05:23,341] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505548935975_-281906822 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:06:28,220] ({pool-2-thread-9} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505548935975_-281906822 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:06:28,221] ({pool-2-thread-9} Paragraph.java[jobRun]:362) - run paragraph 20170916-080215_1065649640 using python org.apache.zeppelin.interpreter.LazyOpenInterpreter@40b07724
+ INFO [2017-09-16 08:06:28,236] ({pool-2-thread-9} NotebookServer.java[afterStatusChange]:2056) - Job 20170916-080215_1065649640 is finished successfully, status: FINISHED
+ INFO [2017-09-16 08:06:28,245] ({pool-2-thread-9} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505548935975_-281906822 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:09:11,206] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505548935975_-281906822 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:09:11,210] ({pool-2-thread-2} Paragraph.java[jobRun]:362) - run paragraph 20170916-080215_1065649640 using python org.apache.zeppelin.interpreter.LazyOpenInterpreter@40b07724
+ INFO [2017-09-16 08:09:11,217] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2056) - Job 20170916-080215_1065649640 is finished successfully, status: FINISHED
+ INFO [2017-09-16 08:09:11,223] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505548935975_-281906822 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:10:23,656] ({pool-2-thread-10} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505548935975_-281906822 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:10:23,658] ({pool-2-thread-10} Paragraph.java[jobRun]:362) - run paragraph 20170916-080215_1065649640 using python org.apache.zeppelin.interpreter.LazyOpenInterpreter@40b07724
+ INFO [2017-09-16 08:10:23,674] ({pool-2-thread-10} NotebookServer.java[afterStatusChange]:2056) - Job 20170916-080215_1065649640 is finished successfully, status: FINISHED
+ INFO [2017-09-16 08:10:23,684] ({pool-2-thread-10} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505548935975_-281906822 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:19:24,457] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505548935975_-281906822 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:19:24,458] ({pool-2-thread-6} Paragraph.java[jobRun]:362) - run paragraph 20170916-080215_1065649640 using python org.apache.zeppelin.interpreter.LazyOpenInterpreter@40b07724
+ INFO [2017-09-16 08:19:24,469] ({pool-2-thread-6} NotebookServer.java[afterStatusChange]:2056) - Job 20170916-080215_1065649640 is finished successfully, status: FINISHED
+ INFO [2017-09-16 08:19:24,478] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505548935975_-281906822 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:19:39,276] ({pool-2-thread-11} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505548935975_-281906822 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:19:39,277] ({pool-2-thread-11} Paragraph.java[jobRun]:362) - run paragraph 20170916-080215_1065649640 using python org.apache.zeppelin.interpreter.LazyOpenInterpreter@40b07724
+ INFO [2017-09-16 08:19:39,297] ({pool-2-thread-11} NotebookServer.java[afterStatusChange]:2056) - Job 20170916-080215_1065649640 is finished successfully, status: FINISHED
+ INFO [2017-09-16 08:19:39,307] ({pool-2-thread-11} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505548935975_-281906822 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:19:42,388] ({qtp1632392469-82} NotebookServer.java[broadcastNewParagraph]:641) - Broadcasting paragraph on run call instead of note.
+ INFO [2017-09-16 08:19:42,401] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505549038170_-199030922 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:19:42,401] ({pool-2-thread-4} Paragraph.java[jobRun]:362) - run paragraph 20170916-080358_1563729412 using python org.apache.zeppelin.interpreter.LazyOpenInterpreter@40b07724
+ INFO [2017-09-16 08:19:42,406] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2056) - Job 20170916-080358_1563729412 is finished successfully, status: FINISHED
+ INFO [2017-09-16 08:19:42,413] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505549038170_-199030922 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:30:16,128] ({qtp1632392469-81} NotebookServer.java[broadcastNewParagraph]:641) - Broadcasting paragraph on run call instead of note.
+ INFO [2017-09-16 08:30:16,154] ({pool-2-thread-12} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505549982387_1762722689 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:30:16,155] ({pool-2-thread-12} Paragraph.java[jobRun]:362) - run paragraph 20170916-081942_1447389567 using python org.apache.zeppelin.interpreter.LazyOpenInterpreter@40b07724
+ INFO [2017-09-16 08:30:16,163] ({pool-2-thread-12} NotebookServer.java[afterStatusChange]:2056) - Job 20170916-081942_1447389567 is finished successfully, status: FINISHED
+ INFO [2017-09-16 08:30:16,173] ({pool-2-thread-12} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505549982387_1762722689 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:30:49,703] ({pool-2-thread-13} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505549982387_1762722689 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:30:49,705] ({pool-2-thread-13} Paragraph.java[jobRun]:362) - run paragraph 20170916-081942_1447389567 using python org.apache.zeppelin.interpreter.LazyOpenInterpreter@40b07724
+ INFO [2017-09-16 08:30:49,721] ({pool-2-thread-13} NotebookServer.java[afterStatusChange]:2056) - Job 20170916-081942_1447389567 is finished successfully, status: FINISHED
+ INFO [2017-09-16 08:30:49,734] ({pool-2-thread-13} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505549982387_1762722689 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:31:15,025] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505549982387_1762722689 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 08:31:15,026] ({pool-2-thread-3} Paragraph.java[jobRun]:362) - run paragraph 20170916-081942_1447389567 using python org.apache.zeppelin.interpreter.LazyOpenInterpreter@40b07724
+ INFO [2017-09-16 08:31:15,038] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2056) - Job 20170916-081942_1447389567 is finished successfully, status: FINISHED
+ INFO [2017-09-16 08:31:15,050] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505549982387_1762722689 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1927388838
+ INFO [2017-09-16 16:15:02,339] ({qtp1632392469-82} NotebookServer.java[onClose]:363) - Closed connection to 172.19.0.1 : 36618. (1001) null

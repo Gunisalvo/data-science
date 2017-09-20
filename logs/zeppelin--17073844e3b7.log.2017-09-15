@@ -1,0 +1,543 @@
+ WARN [2017-09-15 20:23:18,311] ({main} ZeppelinConfiguration.java[create]:97) - Failed to load configuration, proceeding with a default
+ INFO [2017-09-15 20:23:18,339] ({main} ZeppelinConfiguration.java[create]:109) - Server Host: 0.0.0.0
+ INFO [2017-09-15 20:23:18,339] ({main} ZeppelinConfiguration.java[create]:111) - Server Port: 8080
+ INFO [2017-09-15 20:23:18,339] ({main} ZeppelinConfiguration.java[create]:115) - Context Path: /
+ INFO [2017-09-15 20:23:18,343] ({main} ZeppelinConfiguration.java[create]:116) - Zeppelin Version: 0.7.2
+ INFO [2017-09-15 20:23:18,356] ({main} Log.java[initialized]:186) - Logging initialized @240ms
+ INFO [2017-09-15 20:23:18,407] ({main} ZeppelinServer.java[setupWebAppContext]:343) - ZeppelinServer Webapp path: /zeppelin/webapps
+ INFO [2017-09-15 20:23:18,523] ({main} ZeppelinServer.java[main]:187) - Starting zeppelin server
+ INFO [2017-09-15 20:23:18,525] ({main} Server.java[doStart]:327) - jetty-9.2.15.v20160210
+ INFO [2017-09-15 20:23:20,485] ({main} StandardDescriptorProcessor.java[visitServlet]:297) - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+ WARN [2017-09-15 20:23:20,622] ({main} Helium.java[loadConf]:101) - /zeppelin/conf/helium.json does not exists
+ WARN [2017-09-15 20:23:20,976] ({main} Interpreter.java[register]:406) - Static initialization is deprecated for interpreter sql, You should change it to use interpreter-setting.json in your jar or interpreter/{interpreter}/interpreter-setting.json
+ INFO [2017-09-15 20:23:20,978] ({main} InterpreterSettingManager.java[init]:305) - Interpreter psql.sql found. class=org.apache.zeppelin.postgresql.PostgreSqlInterpreter
+ INFO [2017-09-15 20:23:21,048] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name ignite
+ INFO [2017-09-15 20:23:21,048] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name python
+ INFO [2017-09-15 20:23:21,048] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name jdbc
+ INFO [2017-09-15 20:23:21,050] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name psql
+ INFO [2017-09-15 20:23:21,050] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name lens
+ INFO [2017-09-15 20:23:21,050] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name pig
+ INFO [2017-09-15 20:23:21,050] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name flink
+ INFO [2017-09-15 20:23:21,050] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name angular
+ INFO [2017-09-15 20:23:21,050] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name livy
+ INFO [2017-09-15 20:23:21,051] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name file
+ INFO [2017-09-15 20:23:21,051] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name elasticsearch
+ INFO [2017-09-15 20:23:21,051] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name spark
+ INFO [2017-09-15 20:23:21,051] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name cassandra
+ INFO [2017-09-15 20:23:21,051] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name sh
+ INFO [2017-09-15 20:23:21,051] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name md
+ INFO [2017-09-15 20:23:21,051] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name alluxio
+ INFO [2017-09-15 20:23:21,051] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name bigquery
+ INFO [2017-09-15 20:23:21,051] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name hbase
+ INFO [2017-09-15 20:23:21,051] ({main} InterpreterSettingManager.java[init]:337) - InterpreterSettingRef name kylin
+ INFO [2017-09-15 20:23:21,071] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group sh : id=2CV8M8U9M, name=sh
+ INFO [2017-09-15 20:23:21,071] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group file : id=2CUGYD7CF, name=file
+ INFO [2017-09-15 20:23:21,072] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group flink : id=2CSAA48PV, name=flink
+ INFO [2017-09-15 20:23:21,072] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group bigquery : id=2CSV2HAX3, name=bigquery
+ INFO [2017-09-15 20:23:21,072] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group livy : id=2CSHEYM1A, name=livy
+ INFO [2017-09-15 20:23:21,072] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group md : id=2CU4S8JUN, name=md
+ INFO [2017-09-15 20:23:21,072] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group python : id=2CVC4X6UW, name=python
+ INFO [2017-09-15 20:23:21,072] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group elasticsearch : id=2CSFBS6N2, name=elasticsearch
+ INFO [2017-09-15 20:23:21,072] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group hbase : id=2CW3B3BAC, name=hbase
+ INFO [2017-09-15 20:23:21,072] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group psql : id=2CUBXVA2X, name=psql
+ INFO [2017-09-15 20:23:21,072] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group cassandra : id=2CVYP79R2, name=cassandra
+ INFO [2017-09-15 20:23:21,073] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group jdbc : id=2CTP24YCG, name=jdbc
+ INFO [2017-09-15 20:23:21,073] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group pig : id=2CV5GZRWD, name=pig
+ INFO [2017-09-15 20:23:21,073] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group alluxio : id=2CU3XUU2B, name=alluxio
+ INFO [2017-09-15 20:23:21,073] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group lens : id=2CS9BJ1C7, name=lens
+ INFO [2017-09-15 20:23:21,073] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group kylin : id=2CTEV1VRN, name=kylin
+ INFO [2017-09-15 20:23:21,073] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group spark : id=2CS5DMGKZ, name=spark
+ INFO [2017-09-15 20:23:21,073] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group angular : id=2CVR67MKF, name=angular
+ INFO [2017-09-15 20:23:21,073] ({main} InterpreterSettingManager.java[init]:366) - InterpreterSetting group ignite : id=2CVXXKK7G, name=ignite
+ INFO [2017-09-15 20:23:21,078] ({main} InterpreterFactory.java[<init>]:130) - shiroEnabled: false
+ INFO [2017-09-15 20:23:21,121] ({main} VfsLog.java[info]:138) - Using "/tmp/vfs_cache" as temporary files store.
+ INFO [2017-09-15 20:23:21,158] ({main} GitNotebookRepo.java[<init>]:63) - Opening a git repo at '/zeppelin/notebook'
+ INFO [2017-09-15 20:23:21,237] ({main} GitNotebookRepo.java[<init>]:66) - Git repo /zeppelin/notebook/.git does not exist, creating a new one
+ INFO [2017-09-15 20:23:21,321] ({main} NotebookAuthorization.java[loadFromFile]:96) - /zeppelin/conf/notebook-authorization.json
+ INFO [2017-09-15 20:23:21,322] ({main} Credentials.java[loadFromFile]:102) - /zeppelin/conf/credentials.json
+ INFO [2017-09-15 20:23:21,348] ({main} StdSchedulerFactory.java[instantiate]:1184) - Using default implementation for ThreadExecutor
+ INFO [2017-09-15 20:23:21,350] ({main} SimpleThreadPool.java[initialize]:268) - Job execution threads will use class loader of thread: main
+ INFO [2017-09-15 20:23:21,363] ({main} SchedulerSignalerImpl.java[<init>]:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+ INFO [2017-09-15 20:23:21,364] ({main} QuartzScheduler.java[<init>]:240) - Quartz Scheduler v.2.2.1 created.
+ INFO [2017-09-15 20:23:21,364] ({main} RAMJobStore.java[initialize]:155) - RAMJobStore initialized.
+ INFO [2017-09-15 20:23:21,365] ({main} QuartzScheduler.java[initialize]:305) - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+ INFO [2017-09-15 20:23:21,365] ({main} StdSchedulerFactory.java[instantiate]:1339) - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+ INFO [2017-09-15 20:23:21,365] ({main} StdSchedulerFactory.java[instantiate]:1343) - Quartz scheduler version: 2.2.1
+ INFO [2017-09-15 20:23:21,366] ({main} QuartzScheduler.java[start]:575) - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+ INFO [2017-09-15 20:23:21,412] ({main} FolderView.java[createFolder]:107) - Create folder /
+ INFO [2017-09-15 20:23:21,412] ({main} Folder.java[setParent]:168) - Set parent of / to /
+ INFO [2017-09-15 20:23:21,412] ({main} Folder.java[addNote]:184) - Add note 2CVMM29B8 to folder /
+ INFO [2017-09-15 20:23:21,413] ({main} Notebook.java[<init>]:127) - Notebook indexing started...
+ INFO [2017-09-15 20:23:21,527] ({main} LuceneSearch.java[addIndexDocs]:305) - Indexing 1 notebooks took 114ms
+ INFO [2017-09-15 20:23:21,528] ({main} Notebook.java[<init>]:129) - Notebook indexing finished: 1 indexed in 0s
+ INFO [2017-09-15 20:23:21,621] ({main} ServerImpl.java[initDestination]:94) - Setting the server's publish address to be /
+ INFO [2017-09-15 20:23:22,113] ({main} ContextHandler.java[doStart]:744) - Started o.e.j.w.WebAppContext@2698dc7{/,file:/zeppelin/webapps/webapp/,AVAILABLE}{/zeppelin/zeppelin-web-0.7.2.war}
+ INFO [2017-09-15 20:23:22,122] ({main} AbstractConnector.java[doStart]:266) - Started ServerConnector@2184b4f4{HTTP/1.1}{0.0.0.0:8080}
+ INFO [2017-09-15 20:23:22,122] ({main} Server.java[doStart]:379) - Started @4009ms
+ INFO [2017-09-15 20:23:22,122] ({main} ZeppelinServer.java[main]:194) - Done, zeppelin server started
+ WARN [2017-09-15 20:23:28,875] ({qtp1632392469-41} SecurityRestApi.java[ticket]:87) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2017-09-15 20:23:28,966] ({qtp1632392469-16} NotebookServer.java[onOpen]:156) - New connection from 172.19.0.1 : 35616
+ INFO [2017-09-15 20:24:44,787] ({qtp1632392469-43} FolderView.java[onNoteNameChanged]:205) - Note name changed:  -> UOL_MultiLanguageSupport
+ INFO [2017-09-15 20:24:44,787] ({qtp1632392469-43} Folder.java[addNote]:184) - Add note 2CT2SXWS6 to folder /
+ INFO [2017-09-15 20:24:44,895] ({qtp1632392469-20} NotebookServer.java[sendNote]:705) - New operation from 172.19.0.1 : 35616 : anonymous : GET_NOTE : 2CT2SXWS6
+ WARN [2017-09-15 20:24:44,948] ({qtp1632392469-20} GitNotebookRepo.java[revisionHistory]:157) - No Head found for 2CT2SXWS6, No HEAD exists and no explicit starting revision was specified
+ INFO [2017-09-15 20:24:45,220] ({qtp1632392469-16} InterpreterFactory.java[createInterpretersForNote]:188) - Create interpreter instance spark for note 2CT2SXWS6
+ INFO [2017-09-15 20:24:45,223] ({qtp1632392469-16} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.spark.SparkInterpreter 943279852 created
+ INFO [2017-09-15 20:24:45,223] ({qtp1632392469-16} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.spark.SparkSqlInterpreter 1693442823 created
+ INFO [2017-09-15 20:24:45,224] ({qtp1632392469-16} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.spark.DepInterpreter 289217007 created
+ INFO [2017-09-15 20:24:45,224] ({qtp1632392469-16} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.spark.PySparkInterpreter 855385912 created
+ INFO [2017-09-15 20:24:45,224] ({qtp1632392469-16} InterpreterFactory.java[createInterpretersForNote]:221) - Interpreter org.apache.zeppelin.spark.SparkRInterpreter 1086341541 created
+ERROR [2017-09-15 20:24:54,247] ({qtp1632392469-41} NotebookServer.java[onMessage]:357) - Can't handle message
+org.apache.zeppelin.interpreter.InterpreterException: spark.scala interpreter not found
+	at org.apache.zeppelin.interpreter.InterpreterFactory.getInterpreter(InterpreterFactory.java:415)
+	at org.apache.zeppelin.socket.NotebookServer.getEditorSetting(NotebookServer.java:2202)
+	at org.apache.zeppelin.socket.NotebookServer.onMessage(NotebookServer.java:345)
+	at org.apache.zeppelin.socket.NotebookSocket.onWebSocketText(NotebookSocket.java:59)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextMessage(JettyListenerEventDriver.java:128)
+	at org.eclipse.jetty.websocket.common.message.SimpleTextMessage.messageComplete(SimpleTextMessage.java:69)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.appendMessage(AbstractEventDriver.java:65)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextFrame(JettyListenerEventDriver.java:122)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.incomingFrame(AbstractEventDriver.java:161)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.incomingFrame(WebSocketSession.java:309)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.incomingFrame(ExtensionStack.java:214)
+	at org.eclipse.jetty.websocket.common.Parser.notifyFrame(Parser.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.parse(Parser.java:258)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.readParse(AbstractWebSocketConnection.java:632)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.onFillable(AbstractWebSocketConnection.java:480)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+ INFO [2017-09-15 20:25:58,714] ({qtp1632392469-42} NotebookServer.java[broadcastNewParagraph]:641) - Broadcasting paragraph on run call instead of note.
+ERROR [2017-09-15 20:25:58,736] ({qtp1632392469-42} NotebookServer.java[persistAndExecuteSingleParagraph]:1643) - Exception from run
+org.apache.zeppelin.interpreter.InterpreterException: spark.scala interpreter not found
+	at org.apache.zeppelin.interpreter.InterpreterFactory.getInterpreter(InterpreterFactory.java:415)
+	at org.apache.zeppelin.notebook.Note.run(Note.java:600)
+	at org.apache.zeppelin.socket.NotebookServer.persistAndExecuteSingleParagraph(NotebookServer.java:1641)
+	at org.apache.zeppelin.socket.NotebookServer.runParagraph(NotebookServer.java:1615)
+	at org.apache.zeppelin.socket.NotebookServer.onMessage(NotebookServer.java:265)
+	at org.apache.zeppelin.socket.NotebookSocket.onWebSocketText(NotebookSocket.java:59)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextMessage(JettyListenerEventDriver.java:128)
+	at org.eclipse.jetty.websocket.common.message.SimpleTextMessage.messageComplete(SimpleTextMessage.java:69)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.appendMessage(AbstractEventDriver.java:65)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextFrame(JettyListenerEventDriver.java:122)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.incomingFrame(AbstractEventDriver.java:161)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.incomingFrame(WebSocketSession.java:309)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.incomingFrame(ExtensionStack.java:214)
+	at org.eclipse.jetty.websocket.common.Parser.notifyFrame(Parser.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.parse(Parser.java:258)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.readParse(AbstractWebSocketConnection.java:632)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.onFillable(AbstractWebSocketConnection.java:480)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+ERROR [2017-09-15 20:25:58,741] ({qtp1632392469-42} NotebookServer.java[afterStatusChange]:2050) - Error
+org.apache.zeppelin.interpreter.InterpreterException: spark.scala interpreter not found
+	at org.apache.zeppelin.interpreter.InterpreterFactory.getInterpreter(InterpreterFactory.java:415)
+	at org.apache.zeppelin.notebook.Note.run(Note.java:600)
+	at org.apache.zeppelin.socket.NotebookServer.persistAndExecuteSingleParagraph(NotebookServer.java:1641)
+	at org.apache.zeppelin.socket.NotebookServer.runParagraph(NotebookServer.java:1615)
+	at org.apache.zeppelin.socket.NotebookServer.onMessage(NotebookServer.java:265)
+	at org.apache.zeppelin.socket.NotebookSocket.onWebSocketText(NotebookSocket.java:59)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextMessage(JettyListenerEventDriver.java:128)
+	at org.eclipse.jetty.websocket.common.message.SimpleTextMessage.messageComplete(SimpleTextMessage.java:69)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.appendMessage(AbstractEventDriver.java:65)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextFrame(JettyListenerEventDriver.java:122)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.incomingFrame(AbstractEventDriver.java:161)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.incomingFrame(WebSocketSession.java:309)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.incomingFrame(ExtensionStack.java:214)
+	at org.eclipse.jetty.websocket.common.Parser.notifyFrame(Parser.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.parse(Parser.java:258)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.readParse(AbstractWebSocketConnection.java:632)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.onFillable(AbstractWebSocketConnection.java:480)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+ WARN [2017-09-15 20:25:58,742] ({qtp1632392469-42} NotebookServer.java[afterStatusChange]:2058) - Job 20170915-202444_580324374 is finished, status: ERROR, exception: org.apache.zeppelin.interpreter.InterpreterException: spark.scala interpreter not found, result: %text spark.scala interpreter not found
+ WARN [2017-09-15 20:25:58,900] ({qtp1632392469-41} LogUtils.java[doLog]:452) - Application {http://rest.zeppelin.apache.org/}NotebookRestApi has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: spark.scala interpreter not found
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:205)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:102)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:94)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:239)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:248)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:222)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:153)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:167)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:211)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:262)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.apache.zeppelin.server.CorsFilter.doFilter(CorsFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.zeppelin.interpreter.InterpreterException: spark.scala interpreter not found
+	at org.apache.zeppelin.interpreter.InterpreterFactory.getInterpreter(InterpreterFactory.java:415)
+	at org.apache.zeppelin.notebook.Paragraph.getRepl(Paragraph.java:255)
+	at org.apache.zeppelin.notebook.Paragraph.getCurrentRepl(Paragraph.java:259)
+	at org.apache.zeppelin.helium.Helium.suggestApp(Helium.java:249)
+	at org.apache.zeppelin.rest.HeliumRestApi.suggest(HeliumRestApi.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 37 more
+ WARN [2017-09-15 20:25:58,940] ({qtp1632392469-41} PhaseInterceptorChain.java[unwind]:444) - Exception in handleFault on interceptor org.apache.cxf.binding.xml.interceptor.XMLFaultOutInterceptor@325f79f8
+org.apache.cxf.interceptor.Fault: spark.scala interpreter not found
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:205)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:102)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:94)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:239)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:248)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:222)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:153)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:167)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:211)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:262)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.apache.zeppelin.server.CorsFilter.doFilter(CorsFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.zeppelin.interpreter.InterpreterException: spark.scala interpreter not found
+	at org.apache.zeppelin.interpreter.InterpreterFactory.getInterpreter(InterpreterFactory.java:415)
+	at org.apache.zeppelin.notebook.Paragraph.getRepl(Paragraph.java:255)
+	at org.apache.zeppelin.notebook.Paragraph.getCurrentRepl(Paragraph.java:259)
+	at org.apache.zeppelin.helium.Helium.suggestApp(Helium.java:249)
+	at org.apache.zeppelin.rest.HeliumRestApi.suggest(HeliumRestApi.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 37 more
+ERROR [2017-09-15 20:25:58,941] ({qtp1632392469-41} AbstractFaultChainInitiatorObserver.java[onMessage]:115) - Error occurred during error handling, give up!
+org.apache.cxf.interceptor.Fault: spark.scala interpreter not found
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:205)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:102)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:94)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:239)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:248)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:222)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:153)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:167)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:211)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:262)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.apache.zeppelin.server.CorsFilter.doFilter(CorsFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.zeppelin.interpreter.InterpreterException: spark.scala interpreter not found
+	at org.apache.zeppelin.interpreter.InterpreterFactory.getInterpreter(InterpreterFactory.java:415)
+	at org.apache.zeppelin.notebook.Paragraph.getRepl(Paragraph.java:255)
+	at org.apache.zeppelin.notebook.Paragraph.getCurrentRepl(Paragraph.java:259)
+	at org.apache.zeppelin.helium.Helium.suggestApp(Helium.java:249)
+	at org.apache.zeppelin.rest.HeliumRestApi.suggest(HeliumRestApi.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 37 more
+ WARN [2017-09-15 20:25:58,941] ({qtp1632392469-41} ServletHandler.java[doHandle]:628) - /api/helium/suggest/2CT2SXWS6/20170915-202444_580324374
+java.lang.RuntimeException: org.apache.cxf.interceptor.Fault: spark.scala interpreter not found
+	at org.apache.cxf.interceptor.AbstractFaultChainInitiatorObserver.onMessage(AbstractFaultChainInitiatorObserver.java:116)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:333)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:239)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:248)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:222)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:153)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:167)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:211)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:262)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.apache.zeppelin.server.CorsFilter.doFilter(CorsFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.cxf.interceptor.Fault: spark.scala interpreter not found
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:205)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:102)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:94)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	... 32 more
+Caused by: org.apache.zeppelin.interpreter.InterpreterException: spark.scala interpreter not found
+	at org.apache.zeppelin.interpreter.InterpreterFactory.getInterpreter(InterpreterFactory.java:415)
+	at org.apache.zeppelin.notebook.Paragraph.getRepl(Paragraph.java:255)
+	at org.apache.zeppelin.notebook.Paragraph.getCurrentRepl(Paragraph.java:259)
+	at org.apache.zeppelin.helium.Helium.suggestApp(Helium.java:249)
+	at org.apache.zeppelin.rest.HeliumRestApi.suggest(HeliumRestApi.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 37 more
+ERROR [2017-09-15 20:26:03,561] ({qtp1632392469-41} NotebookServer.java[onMessage]:357) - Can't handle message
+org.apache.zeppelin.interpreter.InterpreterException: spark.scal interpreter not found
+	at org.apache.zeppelin.interpreter.InterpreterFactory.getInterpreter(InterpreterFactory.java:415)
+	at org.apache.zeppelin.socket.NotebookServer.getEditorSetting(NotebookServer.java:2202)
+	at org.apache.zeppelin.socket.NotebookServer.onMessage(NotebookServer.java:345)
+	at org.apache.zeppelin.socket.NotebookSocket.onWebSocketText(NotebookSocket.java:59)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextMessage(JettyListenerEventDriver.java:128)
+	at org.eclipse.jetty.websocket.common.message.SimpleTextMessage.messageComplete(SimpleTextMessage.java:69)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.appendMessage(AbstractEventDriver.java:65)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextFrame(JettyListenerEventDriver.java:122)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.incomingFrame(AbstractEventDriver.java:161)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.incomingFrame(WebSocketSession.java:309)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.incomingFrame(ExtensionStack.java:214)
+	at org.eclipse.jetty.websocket.common.Parser.notifyFrame(Parser.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.parse(Parser.java:258)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.readParse(AbstractWebSocketConnection.java:632)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.onFillable(AbstractWebSocketConnection.java:480)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+ERROR [2017-09-15 20:26:03,784] ({qtp1632392469-18} NotebookServer.java[onMessage]:357) - Can't handle message
+org.apache.zeppelin.interpreter.InterpreterException: spark.sca interpreter not found
+	at org.apache.zeppelin.interpreter.InterpreterFactory.getInterpreter(InterpreterFactory.java:415)
+	at org.apache.zeppelin.socket.NotebookServer.getEditorSetting(NotebookServer.java:2202)
+	at org.apache.zeppelin.socket.NotebookServer.onMessage(NotebookServer.java:345)
+	at org.apache.zeppelin.socket.NotebookSocket.onWebSocketText(NotebookSocket.java:59)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextMessage(JettyListenerEventDriver.java:128)
+	at org.eclipse.jetty.websocket.common.message.SimpleTextMessage.messageComplete(SimpleTextMessage.java:69)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.appendMessage(AbstractEventDriver.java:65)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextFrame(JettyListenerEventDriver.java:122)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.incomingFrame(AbstractEventDriver.java:161)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.incomingFrame(WebSocketSession.java:309)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.incomingFrame(ExtensionStack.java:214)
+	at org.eclipse.jetty.websocket.common.Parser.notifyFrame(Parser.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.parse(Parser.java:258)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.readParse(AbstractWebSocketConnection.java:632)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.onFillable(AbstractWebSocketConnection.java:480)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+ERROR [2017-09-15 20:26:03,910] ({qtp1632392469-42} NotebookServer.java[onMessage]:357) - Can't handle message
+org.apache.zeppelin.interpreter.InterpreterException: spark.sc interpreter not found
+	at org.apache.zeppelin.interpreter.InterpreterFactory.getInterpreter(InterpreterFactory.java:415)
+	at org.apache.zeppelin.socket.NotebookServer.getEditorSetting(NotebookServer.java:2202)
+	at org.apache.zeppelin.socket.NotebookServer.onMessage(NotebookServer.java:345)
+	at org.apache.zeppelin.socket.NotebookSocket.onWebSocketText(NotebookSocket.java:59)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextMessage(JettyListenerEventDriver.java:128)
+	at org.eclipse.jetty.websocket.common.message.SimpleTextMessage.messageComplete(SimpleTextMessage.java:69)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.appendMessage(AbstractEventDriver.java:65)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextFrame(JettyListenerEventDriver.java:122)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.incomingFrame(AbstractEventDriver.java:161)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.incomingFrame(WebSocketSession.java:309)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.incomingFrame(ExtensionStack.java:214)
+	at org.eclipse.jetty.websocket.common.Parser.notifyFrame(Parser.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.parse(Parser.java:258)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.readParse(AbstractWebSocketConnection.java:632)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.onFillable(AbstractWebSocketConnection.java:480)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+ERROR [2017-09-15 20:26:04,049] ({qtp1632392469-43} NotebookServer.java[onMessage]:357) - Can't handle message
+org.apache.zeppelin.interpreter.InterpreterException: spark.s interpreter not found
+	at org.apache.zeppelin.interpreter.InterpreterFactory.getInterpreter(InterpreterFactory.java:415)
+	at org.apache.zeppelin.socket.NotebookServer.getEditorSetting(NotebookServer.java:2202)
+	at org.apache.zeppelin.socket.NotebookServer.onMessage(NotebookServer.java:345)
+	at org.apache.zeppelin.socket.NotebookSocket.onWebSocketText(NotebookSocket.java:59)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextMessage(JettyListenerEventDriver.java:128)
+	at org.eclipse.jetty.websocket.common.message.SimpleTextMessage.messageComplete(SimpleTextMessage.java:69)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.appendMessage(AbstractEventDriver.java:65)
+	at org.eclipse.jetty.websocket.common.events.JettyListenerEventDriver.onTextFrame(JettyListenerEventDriver.java:122)
+	at org.eclipse.jetty.websocket.common.events.AbstractEventDriver.incomingFrame(AbstractEventDriver.java:161)
+	at org.eclipse.jetty.websocket.common.WebSocketSession.incomingFrame(WebSocketSession.java:309)
+	at org.eclipse.jetty.websocket.common.extensions.ExtensionStack.incomingFrame(ExtensionStack.java:214)
+	at org.eclipse.jetty.websocket.common.Parser.notifyFrame(Parser.java:220)
+	at org.eclipse.jetty.websocket.common.Parser.parse(Parser.java:258)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.readParse(AbstractWebSocketConnection.java:632)
+	at org.eclipse.jetty.websocket.common.io.AbstractWebSocketConnection.onFillable(AbstractWebSocketConnection.java:480)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+ WARN [2017-09-15 20:26:04,180] ({qtp1632392469-16} InterpreterSettingManager.java[getEditorSetting]:523) - Couldn't get interpreter editor setting
+ INFO [2017-09-15 20:26:06,671] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505507084786_-448224127 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:26:06,672] ({pool-2-thread-2} Paragraph.java[jobRun]:362) - run paragraph 20170915-202444_580324374 using spark org.apache.zeppelin.interpreter.LazyOpenInterpreter@38394eec
+ INFO [2017-09-15 20:26:06,677] ({pool-2-thread-2} RemoteInterpreterManagedProcess.java[start]:126) - Run interpreter process [/zeppelin/bin/interpreter.sh, -d, /zeppelin/interpreter/spark, -p, 36447, -l, /zeppelin/local-repo/2CS5DMGKZ]
+ INFO [2017-09-15 20:26:07,220] ({pool-2-thread-2} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.spark.SparkInterpreter
+ INFO [2017-09-15 20:26:07,312] ({pool-2-thread-2} RemoteInterpreter.java[pushAngularObjectRegistryToRemote]:551) - Push local angular object registry from ZeppelinServer to remote interpreter group 2CS5DMGKZ:shared_process
+ INFO [2017-09-15 20:26:07,323] ({pool-2-thread-2} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.spark.SparkSqlInterpreter
+ INFO [2017-09-15 20:26:07,326] ({pool-2-thread-2} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.spark.DepInterpreter
+ INFO [2017-09-15 20:26:07,328] ({pool-2-thread-2} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.spark.PySparkInterpreter
+ INFO [2017-09-15 20:26:07,337] ({pool-2-thread-2} RemoteInterpreter.java[init]:221) - Create remote interpreter org.apache.zeppelin.spark.SparkRInterpreter
+ WARN [2017-09-15 20:26:18,652] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2058) - Job 20170915-202444_580324374 is finished, status: ERROR, exception: null, result: %text 
+
+
+<console>:1: error: illegal start of simple expression
+val data = [1,2,3]
+           ^
+
+ INFO [2017-09-15 20:26:18,661] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505507084786_-448224127 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:27:06,490] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505507084786_-448224127 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:27:06,491] ({pool-2-thread-2} Paragraph.java[jobRun]:362) - run paragraph 20170915-202444_580324374 using spark org.apache.zeppelin.interpreter.LazyOpenInterpreter@38394eec
+ WARN [2017-09-15 20:27:06,591] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2058) - Job 20170915-202444_580324374 is finished, status: ERROR, exception: null, result: %text 
+
+
+
+
+<console>:25: error: missing argument list for method fill in object Array
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `fill _` or `fill(_,_,_)(_)(_)` instead of `fill`.
+       val data = Array.fill(1,2,3)
+                            ^
+
+ INFO [2017-09-15 20:27:06,624] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505507084786_-448224127 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:27:31,024] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505507084786_-448224127 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:27:31,025] ({pool-2-thread-3} Paragraph.java[jobRun]:362) - run paragraph 20170915-202444_580324374 using spark org.apache.zeppelin.interpreter.LazyOpenInterpreter@38394eec
+ INFO [2017-09-15 20:27:31,496] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2056) - Job 20170915-202444_580324374 is finished successfully, status: FINISHED
+ INFO [2017-09-15 20:27:31,510] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505507084786_-448224127 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:27:39,306] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505507084786_-448224127 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:27:39,306] ({pool-2-thread-2} Paragraph.java[jobRun]:362) - run paragraph 20170915-202444_580324374 using spark org.apache.zeppelin.interpreter.LazyOpenInterpreter@38394eec
+ INFO [2017-09-15 20:27:39,505] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2056) - Job 20170915-202444_580324374 is finished successfully, status: FINISHED
+ INFO [2017-09-15 20:27:39,512] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505507084786_-448224127 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:28:05,318] ({qtp1632392469-18} NotebookServer.java[broadcastNewParagraph]:641) - Broadcasting paragraph on run call instead of note.
+ INFO [2017-09-15 20:28:05,360] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505507158712_9501182 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:28:05,362] ({pool-2-thread-4} Paragraph.java[jobRun]:362) - run paragraph 20170915-202558_1504801892 using spark.r org.apache.zeppelin.interpreter.LazyOpenInterpreter@40c041a5
+ INFO [2017-09-15 20:28:06,147] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2056) - Job 20170915-202558_1504801892 is finished successfully, status: FINISHED
+ INFO [2017-09-15 20:28:06,161] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505507158712_9501182 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:28:24,805] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505507084786_-448224127 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:28:24,806] ({pool-2-thread-3} Paragraph.java[jobRun]:362) - run paragraph 20170915-202444_580324374 using spark org.apache.zeppelin.interpreter.LazyOpenInterpreter@38394eec
+ INFO [2017-09-15 20:28:24,837] ({qtp1632392469-41} Note.java[run]:594) - skip to run blank paragraph. 20170915-202805_1793197859
+ INFO [2017-09-15 20:28:24,837] ({qtp1632392469-41} NotebookServer.java[afterStatusChange]:2056) - Job 20170915-202805_1793197859 is finished successfully, status: FINISHED
+ INFO [2017-09-15 20:28:25,011] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2056) - Job 20170915-202444_580324374 is finished successfully, status: FINISHED
+ INFO [2017-09-15 20:28:25,040] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505507084786_-448224127 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:28:25,043] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505507158712_9501182 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:28:25,043] ({pool-2-thread-5} Paragraph.java[jobRun]:362) - run paragraph 20170915-202558_1504801892 using spark.r org.apache.zeppelin.interpreter.LazyOpenInterpreter@40c041a5
+ INFO [2017-09-15 20:28:25,587] ({pool-2-thread-5} NotebookServer.java[afterStatusChange]:2056) - Job 20170915-202558_1504801892 is finished successfully, status: FINISHED
+ INFO [2017-09-15 20:28:25,596] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505507158712_9501182 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:28:43,756] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505507084786_-448224127 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:28:43,759] ({pool-2-thread-2} Paragraph.java[jobRun]:362) - run paragraph 20170915-202444_580324374 using spark org.apache.zeppelin.interpreter.LazyOpenInterpreter@38394eec
+ INFO [2017-09-15 20:28:43,788] ({qtp1632392469-18} Note.java[run]:594) - skip to run blank paragraph. 20170915-202805_1793197859
+ INFO [2017-09-15 20:28:43,941] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2056) - Job 20170915-202444_580324374 is finished successfully, status: FINISHED
+ INFO [2017-09-15 20:28:43,954] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505507084786_-448224127 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:28:43,954] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505507158712_9501182 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:28:43,955] ({pool-2-thread-6} Paragraph.java[jobRun]:362) - run paragraph 20170915-202558_1504801892 using spark.r org.apache.zeppelin.interpreter.LazyOpenInterpreter@40c041a5
+ INFO [2017-09-15 20:28:44,097] ({pool-2-thread-6} NotebookServer.java[afterStatusChange]:2056) - Job 20170915-202558_1504801892 is finished successfully, status: FINISHED
+ INFO [2017-09-15 20:28:44,110] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505507158712_9501182 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ WARN [2017-09-15 20:28:48,917] ({qtp1632392469-42} InterpreterSettingManager.java[getEditorSetting]:523) - Couldn't get interpreter editor setting
+ WARN [2017-09-15 20:28:49,454] ({qtp1632392469-42} InterpreterSettingManager.java[getEditorSetting]:523) - Couldn't get interpreter editor setting
+ WARN [2017-09-15 20:28:49,586] ({qtp1632392469-41} InterpreterSettingManager.java[getEditorSetting]:523) - Couldn't get interpreter editor setting
+ WARN [2017-09-15 20:28:49,736] ({qtp1632392469-18} InterpreterSettingManager.java[getEditorSetting]:523) - Couldn't get interpreter editor setting
+ WARN [2017-09-15 20:28:49,896] ({qtp1632392469-42} InterpreterSettingManager.java[getEditorSetting]:523) - Couldn't get interpreter editor setting
+ INFO [2017-09-15 20:28:57,506] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:131) - Job paragraph_1505507158712_9501182 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:28:57,506] ({pool-2-thread-4} Paragraph.java[jobRun]:362) - run paragraph 20170915-202558_1504801892 using spark.r org.apache.zeppelin.interpreter.LazyOpenInterpreter@40c041a5
+ INFO [2017-09-15 20:28:57,555] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2056) - Job 20170915-202558_1504801892 is finished successfully, status: FINISHED
+ INFO [2017-09-15 20:28:57,565] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:137) - Job paragraph_1505507158712_9501182 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpretershared_session1891854728
+ INFO [2017-09-15 20:36:24,950] ({qtp1632392469-41} NotebookServer.java[onClose]:363) - Closed connection to 172.19.0.1 : 35616. (1001) null
